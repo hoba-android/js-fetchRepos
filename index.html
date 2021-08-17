@@ -4,25 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="sweetalert2.all.min.js"></script>
     <link rel="stylesheet" href="main.css" />
-    <title>Quiz app</title>
+    <title>Fetch github repos</title>
   </head>
   <body>
-    <div class="quiz-app">
-      <div class="quiz-info">
-        <div class="category">Category: <span>HTML</span></div>
-        <div class="count">Questions : <span></span></div>
+    <div class="repos-main">
+      <div class="get-repos">
+        <input type="text" placeholder="Github username" />
+        <span class="get-button">Get Repos</span>
       </div>
 
-      <div class="quiz-area"></div>
-
-      <div class="answers-area"></div>
-      <button class="submit-answer">Answer</button>
-      <div class="bullets">
-        <div class="spans"></div>
-        <div class="countdown"></div>
+      <div class="show-data">
+        <span>No data to show</span>
       </div>
-      <div class="resutls"></div>
     </div>
 
     <!-- /////////////////////// javascript ///////////////  -->
